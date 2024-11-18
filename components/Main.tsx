@@ -5,6 +5,7 @@ import Button from "./Button";
 export default function MainPage() {
   
   return (
+ 
     <div className="relative flex h-full flex-col items-center justify-between md:flex-row md:pb-24 bg-black">
       {/* Main Content Section */}
       <div className="origin-center-left order-2 max-w-3xl animate-hero-text-slide-up-fade sm:shrink-0 md:order-1 lg:pl-16">
@@ -71,6 +72,7 @@ export default function MainPage() {
         </div>
       </div>
     </div>
+ 
   );
 }
 // import Link from 'next/link';

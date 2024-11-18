@@ -1,5 +1,5 @@
 import React, { useState, useEffect, FC } from "react";
-
+import Image from "next/image";
 interface Step {
   title: string;
   description: string;
@@ -89,37 +89,41 @@ const StepsAnimation: FC = () => {
           <div className="w-1/2 relative">
             {activeStep === 0 && (
               <div className="absolute inset-0 transition-opacity duration-500">
-                <img
+                <Image
                   src="/a.gif"
                   alt="Step 1 Animation"
                   className="w-full h-full object-cover rounded-lg"
+                  width={500} height={500}
                 />
               </div>
             )}
             {activeStep === 1 && (
               <div className="absolute inset-0 transition-opacity duration-500">
-                <img
+                <Image
                   src="/2.gif"
                   alt="Step 2 Animation"
                   className="w-full h-full object-cover rounded-lg"
+                  width={500} height={500}
                 />
               </div>
             )}
             {activeStep === 2 && (
               <div className="absolute inset-0 transition-opacity duration-500">
-                <img
+                <Image
                   src="/3.gif"
                   alt="Step 3 Animation"
                   className="w-full h-full object-cover rounded-lg"
+                  width={500} height={500}
                 />
               </div>
             )}
             {activeStep === 3 && (
               <div className="absolute inset-0 transition-opacity duration-500">
-                <img
+                <Image
                   src="d.gif"
                   alt="Step 4 Animation"
                   className="w-full h-full object-cover rounded-lg"
+                  width={500} height={500}
                 />
               </div>
             )}
