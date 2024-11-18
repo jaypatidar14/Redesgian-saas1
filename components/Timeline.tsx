@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 
 const Journey = () => {
   return (
@@ -123,7 +123,7 @@ const Journey = () => {
                       Feb 2022
                     </p>
                     <div>
-                      <img
+                      <Image
                         alt="Arctic Wolf Incident Launch"
                         className="rounded-lg border max-h-[212px] w-[317px] h-full"
                         src="https://everythingtalent.ai/_next/image?url=%2Fassets%2Fhome%2Ftools.jpg&w=256&q=75"
@@ -181,7 +181,7 @@ const Journey = () => {
                       Oct 2022
                     </p>
                     <div>
-                      <img
+                      <Image
                         alt="Arctic Wolf Expands to ANZ"
                         className="rounded-lg border max-h-[212px] w-[317px] h-full"
                         src="https://everythingtalent.ai/_next/image?url=%2Fassets%2Fhome%2Fai2.jpg&w=256&q=75"
